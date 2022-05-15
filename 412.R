@@ -40,5 +40,3 @@ for (i in 1:nrow(data)) {
 
 data$chapter <- chapters
 data$year <- years
-
-write.csv(data, file='')
